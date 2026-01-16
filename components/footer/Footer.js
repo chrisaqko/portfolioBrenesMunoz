@@ -10,7 +10,7 @@ const ClickHandler = () => {
 }
 
 
-const Footer = (props) => {
+const  Footer = (props) => {
     return (
         <footer className="wpo-site-footer">
             <div className="wpo-upper-footer">
@@ -50,7 +50,6 @@ const Footer = (props) => {
                                 </div>
                                 <ul>
                                     <li><Link onClick={ClickHandler} href="/team-single/Robert-Fox"><span className="rolling-text">About Me</span> </Link></li>
-                                    <li><Link onClick={ClickHandler} href="/services"><span className="rolling-text">Services</span> </Link></li>
                                     <li><Link onClick={ClickHandler} href="/projects"><span className="rolling-text">Projects</span></Link></li>
                                     <li><Link onClick={ClickHandler} href="/contact"><span className="rolling-text">Contact</span></Link></li>
                                 </ul>

@@ -6,14 +6,12 @@ import About from "../../components/about/about";
 import ProjectSection from "../../components/ProjectSection/ProjectSection";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
 import FunFact from "../../components/FunFact/FunFact";
-import Testimonial from "../../components/Testimonial/Testimonial";
 import TeamSection from "../../components/TeamSection/TeamSection";
 import PartnerSection from "../../components/PartnerSection/PartnerSection";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Logo from "/public/images/logo-2.svg";
 import Head from "next/head";
-import { Skeleton } from "@heroui/skeleton";
 
 const ScrollTextAnimation = dynamic(
   () => import("../../components/ScrollTextAnimation/ScrollTextAnimation"),
@@ -23,7 +21,6 @@ const ScrollTextAnimation = dynamic(
 const HomePage = () => {
   return (
     <Fragment>
-      <Skeleton>
         <Head>
           <title>Architect Jonnathan Brenes</title>
           <meta
@@ -50,7 +47,6 @@ const HomePage = () => {
         <PartnerSection hclass={"wpo-partners-section fade_bottom"} />
         <Footer />
         <Scrollbar />
-      </Skeleton>
     </Fragment>
   );
 };

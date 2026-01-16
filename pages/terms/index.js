@@ -8,7 +8,7 @@ import Logo from "/public/images/IMAGOTIPO.svg";
 import Privci1 from "/public/images/terms/terms2.jpg";
 import Privci2 from "/public/images/terms/3.jpg";
 import Privci3 from "/public/images/terms/4.jpg";
-import FAQAccordion from "../../components/FaqSection/FAQAccordion";
+
 import Image from "next/image";
 
 const ScrollTextAnimation = dynamic(

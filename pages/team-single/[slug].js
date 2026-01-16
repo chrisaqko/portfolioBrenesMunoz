@@ -5,7 +5,6 @@ import NavbarS4 from "../../components/NavbarS4/NavbarS4";
 import PageTitle from "../../components/pagetitle/PageTitle";
 import Teams from "../../api/team";
 import PartnerSection from "../../components/PartnerSection/PartnerSection";
-import ContactSectionS4 from "../../components/ContactSectionS4/ContactSectionS4";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Logo from "/public/images/IMAGOTIPO.svg";
