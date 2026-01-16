@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo.svg'
+import Logo from '/public/images/IMAGOTIPO.svg'
 import Privci1 from '/public/images/terms/terms2.jpg'
 import Privci2 from '/public/images/terms/3.jpg'
 import Privci3 from '/public/images/terms/4.jpg'
