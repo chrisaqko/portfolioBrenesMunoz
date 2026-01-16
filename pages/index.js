@@ -20,6 +20,7 @@ const ScrollTextAnimation = dynamic(
 const HomePage = () => {
   return (
     <Fragment>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <Navbar
         hclass={"wpo-site-header wpo-header-style"}
         Logo={Logo}
