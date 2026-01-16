@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo.svg'
+import Logo from '/public/images/IMAGOTIPO.svg'
 import Contactpage from '../../components/Contactpage/Contactpage'
 
 const ScrollTextAnimation = dynamic(

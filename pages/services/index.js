@@ -6,7 +6,7 @@ import ServiceSectionS9 from '../../components/ServiceSectionS9/ServiceSectionS9
 import PartnerSection from '../../components/PartnerSection/PartnerSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo.svg'
+import Logo from '/public/images/IMAGOTIPO.svg'
 
 const ScrollTextAnimation = dynamic(
     () => import('../../components/ScrollTextAnimation/ScrollTextAnimation'),

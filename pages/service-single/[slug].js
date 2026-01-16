@@ -8,7 +8,7 @@ import PartnerSection from '../../components/PartnerSection/PartnerSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import VideoModal from '../../components/ModalVideo/VideoModal';
-import Logo from '/public/images/logo.svg'
+import Logo from '/public/images/IMAGOTIPO.svg'
 import dream1 from '/public/images/service-single/dream/1.jpg'
 import dream2 from '/public/images/service-single/dream/2.jpg'
 import dream3 from '/public/images/service-single/dream/3.jpg'
