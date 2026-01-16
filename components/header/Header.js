@@ -47,7 +47,7 @@ const Header = (props) => {
                             </div>
                             <div className={"" + props.col2}>
                                 <div className="navbar-header">
-                                    <Link onClick={ClickHandler} className="navbar-brand" href="/home"><Image src={props.Logo} width={1000} height={200}
+                                    <Link onClick={ClickHandler} className="navbar-brand" href="/"><Image src={props.Logo} width={1000} height={200}
                                         alt="" /></Link>
                                 </div>
                             </div>

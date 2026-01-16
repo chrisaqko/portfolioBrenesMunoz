@@ -8,8 +8,12 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@heroui/skeleton": "^2.2.18",
+    "@internationalized/date": "^3.10.1",
     "@mui/material": "^5.11.0",
     "@mui/styled-engine-sc": "^5.11.0",
+    "@react-aria/i18n": "^3.12.14",
+    "@swc/helpers": "^0.5.18",
     "animate.css": "^4.1.1",
     "axios": "^1.8.3",
     "bootstrap": "^5.1.3",

@@ -6,7 +6,6 @@ import About from '../components/about/about';
 import ProjectSection from '../components/ProjectSection/ProjectSection';
 import ServiceSection from '../components/ServiceSection/ServiceSection';
 import FunFact from '../components/FunFact/FunFact';
-import Testimonial from '../components/Testimonial/Testimonial';
 import TeamSection from '../components/TeamSection/TeamSection';
 import PartnerSection from '../components/PartnerSection/PartnerSection';
 import Footer from '../components/footer/Footer';
@@ -31,7 +30,6 @@ const HomePage = () => {
             <ProjectSection hclass={'wpo-project-section section-padding'} />
             <ServiceSection hclass={'wpo-service-section'} />
             <FunFact hclass={'wpo-funfact-section'}/>
-            <Testimonial hclass={'wpo-testimonial-section'} />
             <TeamSection hclass={'wpo-team-section'} />
             <PartnerSection hclass={'wpo-partners-section fade_bottom'} />
             <Footer/> 

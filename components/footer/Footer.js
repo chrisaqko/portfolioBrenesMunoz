@@ -25,12 +25,7 @@ const Footer = (props) => {
                                     turpis. Lacus volutpat ipsum convallis tellus pellentesque etiam.</p>
                                 <div className="social-widget">
                                     <ul>
-                                        <li>
-                                            <Link onClick={ClickHandler} href="#"><i className="ti-facebook"></i></Link>
-                                            <Link onClick={ClickHandler} href="#"><i className="ti-twitter-alt"></i></Link>
-                                            <Link onClick={ClickHandler} href="#"><i className="ti-linkedin"></i></Link>
-                                            <Link onClick={ClickHandler} href="#"><i className="ti-instagram"></i></Link>
-                                        </li>
+                                    <Link onClick={ClickHandler} href="https://www.linkedin.com/in/jonnathan-brenes-mu%C3%B1oz-12729824a/"><i className="ti-linkedin"></i></Link>
                                     </ul>
                                 </div>
                             </div>
@@ -41,7 +36,7 @@ const Footer = (props) => {
                                     <h3>Contact</h3>
                                 </div>
                                 <ul>
-                                    <li>jbrenarq
+                                    <li>jbrenarq06
                                         @outlook.com</li>
                                     <li>+(506) 6024-9502</li>
                                     <li>San José, Costa Rica</li>

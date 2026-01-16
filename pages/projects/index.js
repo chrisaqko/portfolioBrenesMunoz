@@ -8,6 +8,7 @@ import Scrollbar from "../../components/scrollbar/scrollbar";
 import Logo from "/public/images/IMAGOTIPO.svg";
 import ProjectSection from "../../components/ProjectSection/ProjectSection";
 import Head from "next/head";
+
 const ScrollTextAnimation = dynamic(
   () => import("../../components/ScrollTextAnimation/ScrollTextAnimation"),
   { ssr: false }
@@ -16,6 +17,7 @@ const ScrollTextAnimation = dynamic(
 const ProjectPage = () => {
   return (
     <Fragment>
+      
       <Head>
         <title>Architect Jonnathan Brenes</title>
         <meta
@@ -23,6 +25,7 @@ const ProjectPage = () => {
           content="Portafolio de arquitectura de Jonnathan Brenes"
         />
       </Head>
+      
       <NavbarS4
         hclass={"wpo-site-header wpo-header-style-s11"}
         Logo={Logo}

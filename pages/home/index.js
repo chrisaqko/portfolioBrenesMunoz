@@ -13,6 +13,7 @@ import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Logo from "/public/images/logo-2.svg";
 import Head from "next/head";
+import { Skeleton } from "@heroui/skeleton";
 
 const ScrollTextAnimation = dynamic(
   () => import("../../components/ScrollTextAnimation/ScrollTextAnimation"),
@@ -22,32 +23,34 @@ const ScrollTextAnimation = dynamic(
 const HomePage = () => {
   return (
     <Fragment>
-      <Head>
-        <title>Architect Jonnathan Brenes</title>
-        <meta
-          name="description"
-          content="Portafolio de arquitectura de Jonnathan Brenes"
+      <Skeleton>
+        <Head>
+          <title>Architect Jonnathan Brenes</title>
+          <meta
+            name="description"
+            content="Portafolio de arquitectura de Jonnathan Brenes"
+          />
+        </Head>
+        <Navbar
+          hclass={"wpo-site-header wpo-header-style"}
+          Logo={Logo}
+          col1={"col-lg-3 col-md-3 col-3 d-lg-none dl-block"}
+          col2={"col-lg-5 col-md-6 col-6"}
+          col3={"col-lg-5 col-md-1 col-1"}
+          col4={"col-lg-2 col-md-2 col-2"}
         />
-      </Head>
-      <Navbar
-        hclass={"wpo-site-header wpo-header-style"}
-        Logo={Logo}
-        col1={"col-lg-3 col-md-3 col-3 d-lg-none dl-block"}
-        col2={"col-lg-5 col-md-6 col-6"}
-        col3={"col-lg-5 col-md-1 col-1"}
-        col4={"col-lg-2 col-md-2 col-2"}
-      />
-      <Hero />
-      <ScrollTextAnimation />
-      <About hclass={"wpo-about-section section-padding pb-0"} />
-      <ProjectSection hclass={"wpo-project-section section-padding"} />
-      <ServiceSection hclass={"wpo-service-section"} />
-      <FunFact hclass={"wpo-funfact-section"} />
-      <Testimonial hclass={"wpo-testimonial-section"} />
-      <TeamSection hclass={"wpo-team-section"} />
-      <PartnerSection hclass={"wpo-partners-section fade_bottom"} />
-      <Footer />
-      <Scrollbar />
+        <Hero />
+        <ScrollTextAnimation />
+        <About hclass={"wpo-about-section section-padding pb-0"} />
+        <ProjectSection hclass={"wpo-project-section section-padding"} />
+        <ServiceSection hclass={"wpo-service-section"} />
+        <FunFact hclass={"wpo-funfact-section"} />
+        <Testimonial hclass={"wpo-testimonial-section"} />
+        <TeamSection hclass={"wpo-team-section"} />
+        <PartnerSection hclass={"wpo-partners-section fade_bottom"} />
+        <Footer />
+        <Scrollbar />
+      </Skeleton>
     </Fragment>
   );
 };

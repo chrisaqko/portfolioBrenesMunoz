@@ -15,15 +15,15 @@ const TopbarS2 = () => {
                         <ul className="contact-info">
                             <li>
                                 <a href="tel:+887869587496">
-                                    Call Us:
-                                    <span>+ +869 968 236</span>
+                                    Call Me:
+                                    <span> +(506) 6024 - 9502</span>
                                 </a>
                             </li>
                             <li>
                                 <span>
-                                    Email Us:
+                                    Email Me:
                                 </span>
-                                <span>bliize@gmail.com</span>
+                                <span> jbrenarq06@outlook.com</span>
                             </li>
 
                         </ul>

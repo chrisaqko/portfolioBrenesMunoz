@@ -3,9 +3,8 @@ import Link from "next/link";
 import { Navigation, Pagination, A11y } from  'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Slide6 from '/public/images/slider/hero-text.jpeg';
-import Slide8 from '/public/images/slider/hero-text-2.jpeg';
-
+import Slide1 from '/public/images/slider/hero-text.jpeg';
+import Slide2 from '/public/images/slider/hero-text-2.jpeg';
 
 /* heroTeam */
 import heroTeam from '/public/images/team/hero-team/1.jpg'
@@ -48,7 +47,7 @@ const Hero = () => {
                         <div className="container">
                             <div className="slide-content">
                                 <div className="slide-sub-title">
-                                    <h2>Designing for Everyone:<span><Image src={Slide6} alt="" /></span></h2>
+                                    <h2>Designing for Everyone:<span><Image src={Slide1} alt="" /></span></h2>
                                     <h2>Accessibility First</h2>
                                     
                                 </div>
@@ -57,12 +56,12 @@ const Hero = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-2.jpeg'})` }}>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-2.jpg'})` }}>
                         <div className="container">
                             <div className="slide-content">
                                 <div className="slide-sub-title">
                                     <h2>Innovation in Every Line, Strength <span><Image
-                                        src={Slide8} alt="" /></span> in Every
+                                        src={Slide2} alt="" /></span> in Every
                                         Build</h2>
                                 </div>
                             </div>
@@ -75,7 +74,7 @@ const Hero = () => {
                             <div className="slide-content">
                                 <div className="slide-sub-title">
                                     <h2>Innovation in Every Line, Strength <span><Image
-                                        src={Slide8} alt="" /></span> in Every
+                                        src={Slide2} alt="" /></span> in Every
                                         Build</h2>
                                 </div>
                             </div>
