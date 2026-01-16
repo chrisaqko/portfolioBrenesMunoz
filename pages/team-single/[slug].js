@@ -11,6 +11,8 @@ import Scrollbar from "../../components/scrollbar/scrollbar";
 import Logo from "/public/images/IMAGOTIPO.svg";
 import arrow from "/public/images/team-single/arrow.svg";
 import Image from "next/image";
+import Head from "next/head";
+
 
 const ScrollTextAnimation = dynamic(
   () => import("../../components/ScrollTextAnimation/ScrollTextAnimation"),
@@ -24,6 +26,13 @@ const TeamSinglePage = () => {
 
   return (
     <Fragment>
+      <Head>
+        <title>Architect Jonnathan Brenes</title>
+        <meta
+          name="description"
+          content="Portafolio de arquitectura de Jonnathan Brenes"
+        />
+      </Head>
       <NavbarS4
         hclass={"wpo-site-header wpo-header-style-s11"}
         Logo={Logo}

@@ -32,7 +32,7 @@ const About = (props) => {
                         </div>
                     </div>
                     <div className="about-funfact fade_bottom">
-                        <h3><span><CountUp end={23} enableScrollSpy /></span><span className="icon">+</span></h3>
+                        <h3><span><CountUp end={2} enableScrollSpy /></span><span className="icon">+</span></h3>
 
                         <h4>Years Of <br />
                             Experience</h4>

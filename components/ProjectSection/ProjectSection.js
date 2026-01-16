@@ -19,12 +19,12 @@ const ProjectSection = (props) => {
                     <h2 className="fade_bottom">My Designs</h2>
                 </div>
                 <div className="project-wrap">
-                    {Projects.slice(0, 4).map((project, item) => (
+                    {Projects.slice(0, 5).map((project, item) => (
                     <div className="project-card fade_bottom" key={item}>
                         <Image src={project.pimg} alt="project-1" />
                         <Image src={project.pimg} alt="project-1" />
                         <div className="content">
-                            <h2><Link onClick={ClickHandler} href={'/project-escuela-dr-saenz/[slug]'} as={`/project-escuela-dr-saenz/${project.slug}`}>{project.title}</Link></h2>
+                            <h2><Link onClick={ClickHandler} href={`/projects/${project.slug}`}>{project.title}</Link></h2>
                             <span>{project.subtitle}</span>
                         </div>
                     </div>

@@ -4,7 +4,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import BlogList from '../../components/BlogList/BlogList'
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo.svg';
+import Logo from '/public/images/IMAGOTIPO.svg';
 
 const BlogPage =() => {
     return(
