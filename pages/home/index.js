@@ -10,7 +10,7 @@ import TeamSection from "../../components/TeamSection/TeamSection";
 import PartnerSection from "../../components/PartnerSection/PartnerSection";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
-import Logo from "/public/images/logo-2.svg";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Head from "next/head";
 
 const ScrollTextAnimation = dynamic(
@@ -21,6 +21,7 @@ const ScrollTextAnimation = dynamic(
 const HomePage = () => {
   return (
     <Fragment>
+      <SpeedInsights />
         <Head>
           <title>Architect Jonnathan Brenes</title>
           <meta
