@@ -17,6 +17,8 @@ const ProjectData = (props) => {
 
   const ProjectData = Projects.find((item) => item.slug === router.query.slug);
 
+  const GalleryComponent = ProjectData?.galleryComponent;
+
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };
@@ -352,7 +354,7 @@ const ProjectData = (props) => {
                   className="scroll-text-animation"
                   data-animation="fade_from_bottom"
                 >
-                  Project Summary and Solutions
+                  Project Gallery
                 </h2>
               </div>
               <div className="col-lg-6 col-12">
@@ -372,10 +374,8 @@ const ProjectData = (props) => {
             className="wraper"
             style={{ backgroundImage: `url(${"/images/wpo-video-bg-5.jpg"})` }}
           >
-            <div className="video-wrap">
-              <div className="video-holder">
-                <VideoModal />
-              </div>
+            <div>
+              {GalleryComponent && <GalleryComponent />}
             </div>
           </div>
         </div>

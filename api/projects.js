@@ -1,4 +1,4 @@
-import pimg57 from "/public/images/project/project-14/4.jpg";
+/**import project main images */
 
 import pimg2 from "/public/images/project/project-escuela-dr-saenz/pimg.jpeg";
 import pimg3 from "/public/images/project/project-torre-habitadsinergia/pimg.jpeg";
@@ -18,6 +18,9 @@ import elevsec6 from "/public/images/project/project-escuela-dr-saenz/elevations
 import elevsec7 from "/public/images/project/project-torre-habitadsinergia/elevations-sections/NORTE@4x.png";
 import elevsec8 from "/public/images/project/project-torre-habitadsinergia/elevations-sections/CORTE BIOCLIMATICO@4x.png";
 import elevsec9 from "/public/images/project/project-torre-habitadsinergia/elevations-sections/OESTE@4x.png";
+import elevsec10 from "/public/images/project/project-galeria-arteymoda/elevations-sections/sec1.png";
+import elevsec11 from "/public/images/project/project-galeria-arteymoda/elevations-sections/sec3.png";
+import elevsec12 from "/public/images/project/project-galeria-arteymoda/elevations-sections/sec4.png";
 /**import floor plans */
 import plan4 from "/public/images/project/project-escuela-dr-saenz/floor-plans/N1@4x.png";
 import plan5 from "/public/images/project/project-escuela-dr-saenz/floor-plans/N2@4x.png";
@@ -25,6 +28,9 @@ import plan6 from "/public/images/project/project-escuela-dr-saenz/floor-plans/C
 import plan7 from "/public/images/project/project-torre-habitadsinergia/floor-plans/PLANTACONJUNTO.jpg";
 import plan8 from "/public/images/project/project-torre-habitadsinergia/floor-plans/PLAZA@4x.png";
 import plan9 from "/public/images/project/project-torre-habitadsinergia/floor-plans/NIVEL8@4x.png";
+import plan10 from "/public/images/project/project-galeria-arteymoda/floor-plans/fplan1.png";
+import plan11 from "/public/images/project/project-galeria-arteymoda/floor-plans/fplan4.png";
+import plan12 from "/public/images/project/project-galeria-arteymoda/floor-plans/fplan6.png";
 /** import isometric views */
 import iso4 from "/public/images/project/project-escuela-dr-saenz/isometric-views/RECR@4x.png";
 import iso5 from "/public/images/project/project-escuela-dr-saenz/isometric-views/BIBL 1@4x.png";
@@ -32,7 +38,9 @@ import iso6 from "/public/images/project/project-escuela-dr-saenz/isometric-view
 import iso7 from "/public/images/project/project-torre-habitadsinergia/isometric-views/isoview1.png";
 import iso8 from "/public/images/project/project-torre-habitadsinergia/isometric-views/isoview2.png";
 import iso9 from "/public/images/project/project-torre-habitadsinergia/isometric-views/isoview3.png";
-
+import iso10 from "/public/images/project/project-galeria-arteymoda/isometric-views/iso1.png";
+import iso11 from "/public/images/project/project-galeria-arteymoda/isometric-views/iso4.png";
+import iso12 from "/public/images/project/project-galeria-arteymoda/isometric-views/iso5.png";
 /**import architectural vizualisations */
 import viz4 from "/public/images/project/project-escuela-dr-saenz/architectural-visualizations/frontalNocturno.png";
 import viz5 from "/public/images/project/project-escuela-dr-saenz/architectural-visualizations/patio.png";
@@ -40,15 +48,22 @@ import viz6 from "/public/images/project/project-escuela-dr-saenz/architectural-
 import viz7 from "/public/images/project/project-torre-habitadsinergia/architectural-visualizations/int 1.jpg";
 import viz8 from "/public/images/project/project-torre-habitadsinergia/architectural-visualizations/int 3.jpg";
 import viz9 from "/public/images/project/project-torre-habitadsinergia/architectural-visualizations/int 6.jpg";
-
-
+import viz10 from "/public/images/project/project-galeria-arteymoda/architectural-visualizations/scene1.png";
+import viz11 from "/public/images/project/project-galeria-arteymoda/architectural-visualizations/scene6.png";
+import viz12 from "/public/images/project/project-galeria-arteymoda/architectural-visualizations/scene10.png";
+/**
+ * Project Gallery Component
+ */
+import ProjectMasonryGalleryComponent2 from "/components/masonryImageList/masonryImageListSaenzHerrera/masonryImageListSaenzHerrera.tsx";
+import ProjectMasonryGalleryComponent3 from "/components/masonryImageList/masonryImageListHabitadSinergia/masonryImageListHabitadSinergia.tsx";
+import ProjectMasonryGalleryComponent4 from "/components/masonryImageList/masonryImageListArteYModa/masonryImageListArteYModa.tsx";
 const Projects = [
   {
     id: "1",
     title: "Blue Bottle Coffee Shop",
     subtitle: "Commercial Design",
     slug: "project-cafeteria-bluebottle",
-    pimg: pimg57,
+    pimg: pimg4,
     phero: phero4,
     sing: Sing57,
     num: "04",
@@ -84,8 +99,7 @@ const Projects = [
     floorPlans: [plan5, plan6, plan4],
     isometricViews: [iso4, iso5, iso6],
     visualizations: [viz4, viz5, viz6],
-
-
+    galleryComponent: ProjectMasonryGalleryComponent2,
   },
   {
     id: "3",
@@ -109,6 +123,7 @@ const Projects = [
     floorPlans: [plan7, plan8, plan9],
     isometricViews: [iso7, iso8, iso9],
     visualizations: [viz7, viz8, viz9],
+    galleryComponent: ProjectMasonryGalleryComponent3,
   },
   {
     id: "4",
@@ -128,13 +143,18 @@ const Projects = [
     floorPlansDesc: "",
     isometricViewsDesc: "",
     visualizationsDesc: "",
+    elevationsSections: [elevsec10, elevsec11, elevsec12],
+    floorPlans: [plan10, plan11, plan12],
+    isometricViews: [iso10, iso11, iso12],
+    visualizations: [viz10, viz11, viz12],
+    galleryComponent: ProjectMasonryGalleryComponent4,
   },
   {
     id: "5",
     title: "JC House",
     subtitle: "Residential Design",
     slug: "project-jc-house",
-    pimg: pimg57,
+    pimg: pimg4,
     phero: phero4,
     sing: Sing57,
     num: "04",

@@ -10,72 +10,8 @@ const menus = [
         title: 'Home',
         link: '/',
     },
- 
     {
         id: 2,
-        title: 'Pages',
-        link: '#',
-        submenu: [
-            {
-                id: 21,
-                title: 'About Us',
-                link: '/about'
-            },
-            {
-                id: 22,
-                title: 'Services',
-                link: '/services'
-            },
-            {
-                id: 23,
-                title: 'Service single',
-                link: '/service-single/Custom-Solutions'
-            },
-            {
-                id: 24,
-                title: 'Team',
-                link: '/team'
-            },
-            {
-                id: 25,
-                title: 'Team single',
-                link: '/team-single/Robert-Fox'
-            },
-            {
-                id: 26,
-                title: 'Pricing',
-                link: '/pricing'
-            },
-            {
-                id: 27,
-                title: 'Login',
-                link: '/login'
-            },
-            {
-                id: 28,
-                title: 'Contact Us',
-                link: '/contact'
-            },
-            {
-                id: 29,
-                title: 'privacy',
-                link: '/privacy'
-            },
-            {
-                id: 221,
-                title: 'Terms',
-                link: '/terms'
-            },
-            {
-                id: 222,
-                title: '404 Error',
-                link: '/404'
-            },
-        ]
-    },
-
-    {
-        id: 3,
         title: 'Projects',
         link: '/projects',
     },
