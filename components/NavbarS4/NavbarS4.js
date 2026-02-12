@@ -15,7 +15,7 @@ export default function NavbarS4(props) {
 
     return (
         <div className={className}>
-            <HeaderS4 hclass={props.hclass} Logo={props.Logo} col1={props.col1} col2={props.col2} col3={props.col3} col4={props.col4} />
+            <HeaderS4 hclass={props.hclass} Logo={props.Logo} Width={props.Width} Height={props.Height} col1={props.col1} col2={props.col2} col3={props.col3} col4={props.col4} />
         </div>
     );
 }

@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import NavbarS4 from "../../components/NavbarS4/NavbarS4";
 import PageTitle from "../../components/pagetitle/PageTitle";
 import Services from "../../api/Services";
-import PartnerSection from "../../components/PartnerSection/PartnerSection";
+import SoftwareSection from "../../components/SoftwareSection/SoftwareSection";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import VideoModal from "../../components/ModalVideo/VideoModal";
@@ -179,7 +179,7 @@ const ServiceSinglePage = () => {
           </div>
         </div>
       </section>
-      <PartnerSection hclass={"wpo-partners-section fade_bottom"} />
+      <SoftwareSection hclass={"wpo-partners-section fade_bottom"} />
       <Footer />
       <Scrollbar />
     </Fragment>

@@ -33,7 +33,7 @@ const ServiceSection = (props) => {
                             <div className="col-lg-3 col-md-6 col-12 fade_bottom" key={item}>
                                 <div className="service-card">
                                     <div className="icon">
-                                        <Image src={service.Icon} alt="icon" />
+                                        <Image src={service.Icon} width={50} height={50} alt="icon" />
                                     </div>
                                     <h2><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>{service.title}</Link></h2>
                                     <p>{service.description}</p>

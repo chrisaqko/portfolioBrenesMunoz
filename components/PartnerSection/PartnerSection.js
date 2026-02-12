@@ -4,12 +4,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // image
-import pimg1 from '/public/images/partners/1.png'
-import pimg2 from '/public/images/partners/2.png'
-import pimg3 from '/public/images/partners/3.png'
-import pimg4 from '/public/images/partners/4.png'
-import pimg5 from '/public/images/partners/5.png'
-import pimg6 from '/public/images/partners/2.png'
+import pimg1 from '/public/images/software/afterfx.webp'
+import pimg2 from '/public/images/software/autocad.webp'
+import pimg3 from '/public/images/software/autodeskrevit.webp'
+import pimg4 from '/public/images/software/d5render.webp'
+import pimg5 from '/public/images/software/illustrator.webp'
+import pimg6 from '/public/images/software/lumion.webp'
+import pimg7 from '/public/images/software/photoshop.webp'
+import pimg8 from '/public/images/software/sketchup.webp'
+import pimg9 from '/public/images/software/v-ray.webp'
 import Image from "next/image";
 
 
@@ -37,7 +40,19 @@ const partners = [
     {
         id: "06",
         pimg: pimg6,
-    }
+    },
+    {
+        id: "07",
+        pimg: pimg7,
+    },
+    {
+        id: "08",
+        pimg: pimg8,
+    },
+    {
+        id: "09",
+        pimg: pimg9,
+    },
 
 ]
 

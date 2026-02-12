@@ -35,7 +35,7 @@ const Header = (props) => {
                     className="navbar-brand"
                     href="/"
                   >
-                    <Image src={props.Logo} alt="" />
+                    <Image src={props.Logo} width={props.Width} height={props.Height} alt="" />
                   </Link>
                 </div>
               </div>
@@ -73,33 +73,11 @@ const Header = (props) => {
                 <div className="header-right">
                   <div className="header-search-form-wrapper">
                     <div className="cart-search-contact">
-                      <button
-                        onClick={() => setMenuState(!menuActive)}
-                        className="search-toggle-btn"
-                      >
-                        <i
-                          className={`fi ${
-                            menuActive ? "ti-close" : "flaticon-loupe"
-                          }`}
-                        ></i>
-                      </button>
                       <div
                         className={`header-search-form ${
                           menuActive ? "header-search-content-toggle" : ""
                         }`}
                       >
-                        <form onSubmit={SubmitHandler}>
-                          <div>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Search here..."
-                            />
-                            <button type="submit">
-                              <i className="fi flaticon-loupe"></i>
-                            </button>
-                          </div>
-                        </form>
                       </div>
                     </div>
                   </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 // images
-import Logo from "/public/images/IMAGOTIPO.svg";
+// import Logo from "../../public/images/logo.png"; no funciona el import
 import Image from "next/image";
 
 const ClickHandler = () => {
@@ -21,7 +21,7 @@ const Footer = (props) => {
             >
               <div className="widget about-widget">
                 <div className="logo widget-title">
-                  <Image src={Logo} alt="blog" />
+                  <Image src={"/images/logo/IMAGOTIPO.webp"} width={200} height={100} alt="blog" />
                 </div>
                 <p>
                   Architecture graduate · 2+ years experience · AutoCAD, Revit,

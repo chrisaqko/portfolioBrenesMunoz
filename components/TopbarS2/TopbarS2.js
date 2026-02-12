@@ -31,10 +31,9 @@ const TopbarS2 = () => {
                     <div className="col-lg-4 col-md-4 col-12">
                         <div className="contact-into">
                             <ul className="social-media">
-                                <li><Link onClick={ClickHandler} href="/"><i className="ti-facebook"></i></Link></li>
-                                <li><Link onClick={ClickHandler} href="/"><i className="ti-twitter-alt"></i></Link></li>
-                                <li><Link onClick={ClickHandler} href="/"><i className="ti-linkedin"></i></Link></li>
-                                <li><Link onClick={ClickHandler} href="/"><i className="ti-instagram"></i></Link></li>
+
+                                <li><Link onClick={ClickHandler} href="https://www.linkedin.com/in/jonnathan-brenes-mu%C3%B1oz-12729824a/"><i className="ti-linkedin"></i></Link></li>
+
                             </ul>
                         </div>
                     </div>

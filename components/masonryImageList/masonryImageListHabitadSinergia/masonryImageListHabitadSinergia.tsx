@@ -23,163 +23,163 @@ export default function MasonryImageList() {
 
 const itemData = [
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene1.png',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene1.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene9.png',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene9.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene2.png',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene2.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene3.png',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene3.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene4.png',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene4.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene5.png',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene5.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene6.png',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene6.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene7.png',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene7.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene8.png',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene8.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene10.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene10.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene11.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene11.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene12.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene12.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene13.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene13.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene14.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene14.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene15.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene15.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene16.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene16.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene17.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene17.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene18.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene18.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene19.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene19.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene20.jpg',
+        img: '/images/project/project-torre-habitadsinergia/architectural-visualizations/scene20.webp',
         title: '',
     },
      {
-        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso1.png',
+        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso1.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso2.png',
+        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso2.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso3.png',
+        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso3.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso4.png',
+        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso4.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso5.png',
+        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso5.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso6.png',
+        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso6.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso7.png',
+        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso7.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso8.png',
+        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso8.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso9.png',
+        img: '/images/project/project-torre-habitadsinergia/isometric-views/iso9.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec1.png',
+        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec1.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec2.png',
+        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec2.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec3.png',
+        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec3.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec4.png',
+        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec4.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec5.png',
+        img: '/images/project/project-torre-habitadsinergia/elevations-sections/sec5.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan1.png',
+        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan1.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan2.png',
+        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan2.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan3.png',
+        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan3.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan4.png',
+        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan4.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan5.png',
+        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan5.webp',
         title: '',
     },
     {
-        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan6.png',
+        img: '/images/project/project-torre-habitadsinergia/floor-plans/fplan6.webp',
         title: '',
     },
 ];

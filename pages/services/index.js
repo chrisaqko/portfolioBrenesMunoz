@@ -3,7 +3,7 @@ import NavbarS4 from '../../components/NavbarS4/NavbarS4';
 import dynamic from 'next/dynamic';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import ServiceSectionS9 from '../../components/ServiceSectionS9/ServiceSectionS9';
-import PartnerSection from '../../components/PartnerSection/PartnerSection';
+import SoftwareSection from "../../components/SoftwareSection/SoftwareSection";
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Logo from '/public/images/IMAGOTIPO.svg'
@@ -24,7 +24,7 @@ const ServicePage = () => {
             <PageTitle pageTitle={'What’s part of the service'} pagesub={'Services'} />
             <ScrollTextAnimation />
             <ServiceSectionS9 hclass={'wpo-service-section-s12 section-padding'} showTitle={false} />
-            <PartnerSection hclass={'wpo-partners-section fade_bottom'} />
+            <SoftwareSection hclass={'wpo-partners-section fade_bottom'} />
             <Footer />
             <Scrollbar /> 
         </Fragment>

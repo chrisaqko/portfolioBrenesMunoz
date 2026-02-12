@@ -6,11 +6,8 @@ import PageTitle from "../../components/pagetitle/PageTitle";
 import Projects from "../../api/projects";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
-import Logo from "/public/images/IMAGOTIPO.svg";
-import VideoModal from "../../components/ModalVideo/VideoModal";
 import Image from "next/image";
 import Head from "next/head";
-
 
 const ProjectData = (props) => {
   const router = useRouter();
@@ -34,7 +31,9 @@ const ProjectData = (props) => {
       </Head>
       <NavbarS4
         hclass={"wpo-site-header wpo-header-style-s11"}
-        Logo={Logo}
+        Logo={"/images/logo/IMAGOTIPO.webp"}
+        Width={200}
+        Height={100}
         col1={"col-lg-3 col-md-3 col-3 d-lg-none dl-block"}
         col2={"col-lg-2 col-md-4 col-6"}
         col3={"col-lg-7 col-md-1 col-1"}
@@ -52,7 +51,7 @@ const ProjectData = (props) => {
             className="project-image scroll-text-animation"
             data-animation="fade_from_bottom"
           >
-            <Image src={ProjectData?.sing} alt="" />
+            <Image src={ProjectData?.sing} width={2000} height={500} alt="" />
           </div>
           <div className="row align-items-center">
             <div className="col-lg-8  col-12">
@@ -147,7 +146,12 @@ const ProjectData = (props) => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={ProjectData?.elevationsSections[0]} alt="" />
+                  <Image
+                    src={ProjectData?.elevationsSections[0]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
                 </div>
               </div>
               <div
@@ -155,7 +159,12 @@ const ProjectData = (props) => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={ProjectData?.elevationsSections[1]} alt="" />
+                  <Image
+                    src={ProjectData?.elevationsSections[1]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
                 </div>
               </div>
               <div
@@ -163,7 +172,12 @@ const ProjectData = (props) => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={ProjectData?.elevationsSections[2]} alt="" />
+                  <Image
+                    src={ProjectData?.elevationsSections[2]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -203,18 +217,9 @@ const ProjectData = (props) => {
               >
                 <div className="image">
                   <Image
-                    src={ProjectData?.floorPlans[2]}
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
                     src={ProjectData?.floorPlans[0]}
+                    width={300}
+                    height={300}
                     alt=""
                   />
                 </div>
@@ -226,6 +231,21 @@ const ProjectData = (props) => {
                 <div className="image">
                   <Image
                     src={ProjectData?.floorPlans[1]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
+                data-animation="fade_from_bottom"
+              >
+                <div className="image">
+                  <Image
+                    src={ProjectData?.floorPlans[2]}
+                    width={300}
+                    height={300}
                     alt=""
                   />
                 </div>
@@ -266,7 +286,12 @@ const ProjectData = (props) => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={ProjectData?.isometricViews[0]} alt="" />
+                  <Image
+                    src={ProjectData?.isometricViews[0]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
                 </div>
               </div>
               <div
@@ -274,7 +299,12 @@ const ProjectData = (props) => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={ProjectData?.isometricViews[1]} alt="" />
+                  <Image
+                    src={ProjectData?.isometricViews[1]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
                 </div>
               </div>
               <div
@@ -282,7 +312,12 @@ const ProjectData = (props) => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={ProjectData?.isometricViews[2]} alt="" />
+                  <Image
+                    src={ProjectData?.isometricViews[2]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -321,7 +356,12 @@ const ProjectData = (props) => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={ProjectData?.visualizations[0]} alt="" />
+                  <Image
+                    src={ProjectData?.visualizations[0]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
                 </div>
               </div>
               <div
@@ -329,7 +369,12 @@ const ProjectData = (props) => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={ProjectData?.visualizations[1]} alt="" />
+                  <Image
+                    src={ProjectData?.visualizations[1]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
                 </div>
               </div>
               <div
@@ -337,7 +382,12 @@ const ProjectData = (props) => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={ProjectData?.visualizations[2]} alt="" />
+                  <Image
+                    src={ProjectData?.visualizations[2]}
+                    width={300}
+                    height={300}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -374,9 +424,7 @@ const ProjectData = (props) => {
             className="wraper"
             style={{ backgroundImage: `url(${"/images/wpo-video-bg-5.jpg"})` }}
           >
-            <div>
-              {GalleryComponent && <GalleryComponent />}
-            </div>
+            <div>{GalleryComponent && <GalleryComponent />}</div>
           </div>
         </div>
       </section>

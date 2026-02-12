@@ -22,138 +22,138 @@ export default function MasonryImageList() {
 
 const itemData = [
     {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene1.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene1.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene2.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene2.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene3.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene3.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene4.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene4.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene5.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene5.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene6.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene6.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene7.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene7.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene8.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene8.webp',
         title: '',
     }, {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene9.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene9.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene10.png',
+        img: '/images/project/project-galeria-arteymoda/architectural-visualizations/scene10.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/isometric-views/iso1.png',
+        img: '/images/project/project-galeria-arteymoda/isometric-views/iso1.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/isometric-views/iso2.png',
+        img: '/images/project/project-galeria-arteymoda/isometric-views/iso2.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/isometric-views/iso3.png',
+        img: '/images/project/project-galeria-arteymoda/isometric-views/iso3.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/isometric-views/iso4.png',
+        img: '/images/project/project-galeria-arteymoda/isometric-views/iso4.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/isometric-views/iso5.png',
+        img: '/images/project/project-galeria-arteymoda/isometric-views/iso5.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/isometric-views/iso6.png',
+        img: '/images/project/project-galeria-arteymoda/isometric-views/iso6.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/isometric-views/iso7.png',
+        img: '/images/project/project-galeria-arteymoda/isometric-views/iso7.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/isometric-views/iso8.png',
+        img: '/images/project/project-galeria-arteymoda/isometric-views/iso8.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/isometric-views/iso9.png',
+        img: '/images/project/project-galeria-arteymoda/isometric-views/iso9.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec1.png',
+        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec1.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec2.png',
+        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec2.webp',
         title: '',
     }, 
     {
-        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec3.png',
+        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec3.webp',
         title: '',
     }, 
     {
-        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec4.png',
+        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec4.webp',
         title: '',
     }, 
     {
-        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec5.png',
+        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec5.webp',
         title: '',
     }, 
     {
-        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec6.png',
+        img: '/images/project/project-galeria-arteymoda/elevations-sections/sec6.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan1.png',
+        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan1.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan2.png',
+        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan2.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan3.png',
+        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan3.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan4.png',
+        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan4.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan5.png',
+        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan5.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan6.png',
+        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan6.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan7.png',
+        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan7.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan8.png',
+        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan8.webp',
         title: '',
     },
     {
-        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan9.png',
+        img: '/images/project/project-galeria-arteymoda/floor-plans/fplan9.webp',
         title: '',
     },
 ];

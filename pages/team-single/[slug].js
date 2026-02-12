@@ -4,10 +4,9 @@ import dynamic from "next/dynamic";
 import NavbarS4 from "../../components/NavbarS4/NavbarS4";
 import PageTitle from "../../components/pagetitle/PageTitle";
 import Teams from "../../api/team";
-import PartnerSection from "../../components/PartnerSection/PartnerSection";
+import SoftwareSection from "../../components/SoftwareSection/SoftwareSection";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
-import Logo from "/public/images/IMAGOTIPO.svg";
 import arrow from "/public/images/team-single/arrow.svg";
 import Image from "next/image";
 import Head from "next/head";
@@ -34,7 +33,9 @@ const TeamSinglePage = () => {
       </Head>
       <NavbarS4
         hclass={"wpo-site-header wpo-header-style-s11"}
-        Logo={Logo}
+        Logo={"/images/logo/IMAGOTIPO.webp"}
+        Width={200}
+        Height={100}
         col1={"col-lg-3 col-md-3 col-3 d-lg-none dl-block"}
         col2={"col-lg-2 col-md-4 col-6"}
         col3={"col-lg-7 col-md-1 col-1"}
@@ -217,7 +218,7 @@ const TeamSinglePage = () => {
           </div>
         </div>
       </section>
-      <PartnerSection hclass={"wpo-partners-section fade_bottom"} />
+      <SoftwareSection hclass={"wpo-partners-section fade_bottom"} />
       <Footer />
       <Scrollbar />
     </Fragment>
