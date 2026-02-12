@@ -6,7 +6,7 @@ import About from '../../components/about/about';
 import ProjectSection from '../../components/ProjectSection/ProjectSection';
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import FunFact from '../../components/FunFact/FunFact';
-import SoftwareSection from "/../components/SoftwareSection/SoftwareSection";
+import SoftwareSection from "../../components/SoftwareSection/SoftwareSection";
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Logo from '/public/images/IMAGOTIPO.svg'
