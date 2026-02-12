@@ -20,8 +20,8 @@ const ProjectSection = (props) => {
                 <div className="project-wrap">
                     {Projects.slice(0, 5).map((project, item) => (
                     <div className="project-card fade_bottom" key={item}>
-                        <Image src={project.pimg} width={300} height={300} alt="project-1" />
-                        <Image src={project.pimg} width={300} height={300} alt="project-1" />
+                        <Image src={project.pimg} width={1500} height={300} alt="project-1" />
+                        <Image src={project.pimg} width={1500} height={300} alt="project-1" />
                         <div className="content">
                             <h2><Link onClick={ClickHandler} href={`/projects/${project.slug}`}>{project.title}</Link></h2>
                             <span>{project.subtitle}</span>
