@@ -113,7 +113,7 @@ const ProjectData = (props) => {
           </div>
         </div>
       </section>
-            {ProjectData?.visualizations?.length > 0 && (
+      {ProjectData?.visualizations?.length > 0 && (
         <section className="solve-section">
           <div className="container-fluid">
             <div className="project-title">
@@ -289,7 +289,7 @@ const ProjectData = (props) => {
           </div>
         </section>
       )}
-            {ProjectData?.elevationsSections?.length > 0 && (
+      {ProjectData?.elevationsSections?.length > 0 && (
         <section className="solve-section">
           <div className="container-fluid">
             <div className="project-title">
@@ -299,7 +299,7 @@ const ProjectData = (props) => {
                     className="scroll-text-animation"
                     data-animation="fade_from_bottom"
                   >
-                    Floor Plans
+                    Elevations & Sections
                   </h2>
                 </div>
                 <div className="col-lg-6 col-12">

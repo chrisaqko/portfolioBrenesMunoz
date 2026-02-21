@@ -37,9 +37,9 @@ const HomePage = () => {
       <Hero />
       <ScrollTextAnimation />
       <About hclass={"wpo-about-section section-padding pb-0"} />
+      <SoftwareSection hclass={"wpo-partners-section fade_bottom"} />
       <ProjectSection hclass={"wpo-project-section section-padding"} />
       <ServiceSection hclass={"wpo-service-section"} />
-      <SoftwareSection hclass={"wpo-partners-section fade_bottom"} />
       <Footer />
       <Scrollbar />
     </Fragment>

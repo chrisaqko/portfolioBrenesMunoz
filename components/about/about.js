@@ -4,6 +4,7 @@ import Link from 'next/link';
 import CountUp from 'react-countup';
 import RollingText from "../RollingText/RollingText";
 import Image from "next/image";
+import SoftwareSection from "../../components/SoftwareSection/SoftwareSection";
 
 const About = (props) => {
 
@@ -39,6 +40,7 @@ const About = (props) => {
                     <Image src={'/images/about/FOTO620x700.webp'} width={620} height={700} alt="" />
                 </div>
             </div>
+            
         </section>
     )
 }
