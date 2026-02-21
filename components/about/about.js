@@ -2,8 +2,6 @@ import React from "react";
 import VideoModal from "../ModalVideo/VideoModal";
 import Link from 'next/link';
 import CountUp from 'react-countup';
-import abImg from '/public/images/about/about-1/1.jpg';
-import abImg2 from '/public/images/about/about-1/2.jpg';
 import RollingText from "../RollingText/RollingText";
 import Image from "next/image";
 
@@ -21,7 +19,7 @@ const About = (props) => {
                     <h2 className="scroll-text-animation" data-animation="fade_from_right">About me</h2>
                     <p className="fade_bottom">I am an architect focused on designing comfortable, open, and accessible spaces that respond to both people and function. My work emphasizes natural light, ventilation, and clarity, creating environments where users feel safe, welcome, and at ease. I approach each project with a detailed and context-aware mindset, adapting materials and design strategies to the social and climatic conditions of each place. I am especially interested in social inclusion and community-oriented spaces, aiming to create architecture that is visually coherent, meaningful, and deeply connected to the people who inhabit it.</p>
                     <div className="about-btn ">
-                        <Link onClick={ClickHandler} href="/team-single/Robert-Fox" className="theme-btn">
+                        <Link onClick={ClickHandler} href="/team-single/Brenes-Munoz" className="theme-btn">
                             <RollingText text={'Professional Info'}/>
                         </Link>
                     </div>
@@ -35,10 +33,10 @@ const About = (props) => {
             </div>
             <div className="image">
                 <div className="image-1  poort-in-right">
-                    <Image src={abImg} alt="" />
+                    <Image src={'/images/about/FONDOABTME.webp'} width={620} height={700} alt="" />
                 </div>
                 <div className="image-2 poort-in-right">
-                    <Image src={abImg2} alt="" />
+                    <Image src={'/images/about/FOTO620x700.webp'} width={620} height={700} alt="" />
                 </div>
             </div>
         </section>

@@ -1,11 +1,10 @@
-
 /**
  * Project Gallery Component
  */
+import ProjectMasonryGalleryComponent1 from "/components/masonryImageList/masonryImageListBlueBottle/masonryImageListBlueBottle.tsx";
 import ProjectMasonryGalleryComponent2 from "/components/masonryImageList/masonryImageListSaenzHerrera/masonryImageListSaenzHerrera.tsx";
 import ProjectMasonryGalleryComponent3 from "/components/masonryImageList/masonryImageListHabitadSinergia/masonryImageListHabitadSinergia.tsx";
 import ProjectMasonryGalleryComponent4 from "/components/masonryImageList/masonryImageListArteYModa/masonryImageListArteYModa.tsx";
-
 
 const Projects = [
   {
@@ -13,9 +12,10 @@ const Projects = [
     title: "Blue Bottle Coffee Shop",
     subtitle: "Commercial Design",
     slug: "project-cafeteria-bluebottle",
-    pimg: "/images/project/project-galeria-arteymoda/pimg.jpeg",
-    phero: "/images/project/hero-project-2/img-4.jpg",
-    sing: "/images/project-single/57.jpg",
+    pimg: "/images/project/project-cafeteria-bluebottle/architectural-visualizations/sceneSlug2.webp",
+    phero:
+      "/images/project/project-cafeteria-bluebottle/architectural-visualizations/sceneSlug2.webp",
+    sing: "/images/project/project-cafeteria-bluebottle/sing.webp",
     num: "04",
     date: "March 2024",
     location: "Cartago, Costa Rica",
@@ -26,6 +26,33 @@ const Projects = [
     floorPlansDesc: "",
     isometricViewsDesc: "",
     visualizationsDesc: "",
+    elevationsSections: [
+      "/images/project/project-cafeteria-bluebottle/elevations-sections/sec1.webp",
+      "/images/project/project-cafeteria-bluebottle/elevations-sections/sec2.webp",
+      "/images/project/project-cafeteria-bluebottle/elevations-sections/sec3.webp",
+    ],
+    floorPlans: [
+      "/images/project/project-cafeteria-bluebottle/floor-plans/fplan1.webp",
+      "/images/project/project-cafeteria-bluebottle/floor-plans/fplan2.webp",
+      "/images/project/project-cafeteria-bluebottle/floor-plans/fplan3.webp",
+    ],
+    isometricViews: [],
+    moodBoard: [
+      "/images/project/project-cafeteria-bluebottle/mood-board/moodboard1.webp",
+      "/images/project/project-cafeteria-bluebottle/mood-board/moodboard2.webp",
+      "/images/project/project-cafeteria-bluebottle/mood-board/moodboard3.webp",
+    ],
+    built: [
+      "/images/project/project-cafeteria-bluebottle/built-project/built1.webp",
+      "/images/project/project-cafeteria-bluebottle/built-project/built2.webp",
+      "/images/project/project-cafeteria-bluebottle/built-project/built3.webp",
+    ],
+    visualizations: [
+      "/images/project/project-cafeteria-bluebottle/architectural-visualizations/sceneSlug3.webp",
+      "/images/project/project-cafeteria-bluebottle/architectural-visualizations/sceneSlug4.webp",
+      "/images/project/project-cafeteria-bluebottle/masonry/scene13.webp",
+    ],
+    galleryComponent: ProjectMasonryGalleryComponent1,
   },
   {
     id: "2",
@@ -46,21 +73,25 @@ const Projects = [
     isometricViewsDesc: "",
     visualizationsDesc: "",
     elevationsSections: [
-      "/images/project/project-escuela-dr-saenz/elevations-sections/sec2.webp", 
-      "/images/project/project-escuela-dr-saenz/elevations-sections/sec8.webp", 
-      "/images/project/project-escuela-dr-saenz/elevations-sections/sec9.webp"],
+      "/images/project/project-escuela-dr-saenz/elevations-sections/sec2.webp",
+      "/images/project/project-escuela-dr-saenz/elevations-sections/sec8.webp",
+      "/images/project/project-escuela-dr-saenz/elevations-sections/sec9.webp",
+    ],
     floorPlans: [
-      "/images/project/project-escuela-dr-saenz/floor-plans/fplan1.webp", 
-      "/images/project/project-escuela-dr-saenz/floor-plans/fplan2.webp", 
-      "/images/project/project-escuela-dr-saenz/floor-plans/fplan3.webp"],
+      "/images/project/project-escuela-dr-saenz/floor-plans/fplan1.webp",
+      "/images/project/project-escuela-dr-saenz/floor-plans/fplan2.webp",
+      "/images/project/project-escuela-dr-saenz/floor-plans/fplan3.webp",
+    ],
     isometricViews: [
-      "/images/project/project-escuela-dr-saenz/isometric-views/iso2.webp", 
-      "/images/project/project-escuela-dr-saenz/isometric-views/iso3.webp", 
-      "/images/project/project-escuela-dr-saenz/isometric-views/iso5.webp"],
+      "/images/project/project-escuela-dr-saenz/isometric-views/iso2.webp",
+      "/images/project/project-escuela-dr-saenz/isometric-views/iso3.webp",
+      "/images/project/project-escuela-dr-saenz/isometric-views/iso5.webp",
+    ],
     visualizations: [
-      "/images/project/project-escuela-dr-saenz/architectural-visualizations/scene1.webp", 
-      "/images/project/project-escuela-dr-saenz/architectural-visualizations/scene9.webp", 
-      "/images/project/project-escuela-dr-saenz/architectural-visualizations/scene19.webp"],
+      "/images/project/project-escuela-dr-saenz/architectural-visualizations/scene1.webp",
+      "/images/project/project-escuela-dr-saenz/architectural-visualizations/scene9.webp",
+      "/images/project/project-escuela-dr-saenz/architectural-visualizations/scene19.webp",
+    ],
     galleryComponent: ProjectMasonryGalleryComponent2,
   },
   {
@@ -82,21 +113,25 @@ const Projects = [
     isometricViewsDesc: "",
     visualizationsDesc: "",
     elevationsSections: [
-      "/images/project/project-torre-habitadsinergia/elevations-sections/sec5.webp", 
-      "/images/project/project-torre-habitadsinergia/elevations-sections/sec2.webp", 
-      "/images/project/project-torre-habitadsinergia/elevations-sections/sec3.webp"],
+      "/images/project/project-torre-habitadsinergia/elevations-sections/sec5.webp",
+      "/images/project/project-torre-habitadsinergia/elevations-sections/sec2.webp",
+      "/images/project/project-torre-habitadsinergia/elevations-sections/sec3.webp",
+    ],
     floorPlans: [
-      "/images/project/project-torre-habitadsinergia/floor-plans/fplan4.webp", 
-      "/images/project/project-torre-habitadsinergia/floor-plans/fplan5.webp", 
-      "/images/project/project-torre-habitadsinergia/floor-plans/fplan3.webp"],
+      "/images/project/project-torre-habitadsinergia/floor-plans/fplan4.webp",
+      "/images/project/project-torre-habitadsinergia/floor-plans/fplan5.webp",
+      "/images/project/project-torre-habitadsinergia/floor-plans/fplan3.webp",
+    ],
     isometricViews: [
-      "/images/project/project-torre-habitadsinergia/isometric-views/iso4.webp", 
-      "/images/project/project-torre-habitadsinergia/isometric-views/iso2.webp", 
-      "/images/project/project-torre-habitadsinergia/isometric-views/iso9.webp"],
+      "/images/project/project-torre-habitadsinergia/isometric-views/iso4.webp",
+      "/images/project/project-torre-habitadsinergia/isometric-views/iso2.webp",
+      "/images/project/project-torre-habitadsinergia/isometric-views/iso9.webp",
+    ],
     visualizations: [
-      "/images/project/project-torre-habitadsinergia/architectural-visualizations/scene14.webp", 
-      "/images/project/project-torre-habitadsinergia/architectural-visualizations/scene9.webp", 
-      "/images/project/project-torre-habitadsinergia/architectural-visualizations/scene18.webp"],
+      "/images/project/project-torre-habitadsinergia/architectural-visualizations/scene14.webp",
+      "/images/project/project-torre-habitadsinergia/architectural-visualizations/scene9.webp",
+      "/images/project/project-torre-habitadsinergia/architectural-visualizations/scene18.webp",
+    ],
     galleryComponent: ProjectMasonryGalleryComponent3,
   },
   {
@@ -118,21 +153,25 @@ const Projects = [
     isometricViewsDesc: "",
     visualizationsDesc: "",
     elevationsSections: [
-      "/images/project/project-galeria-arteymoda/elevations-sections/sec1.webp", 
-      "/images/project/project-galeria-arteymoda/elevations-sections/sec3.webp", 
-      "/images/project/project-galeria-arteymoda/elevations-sections/sec4.webp"],
+      "/images/project/project-galeria-arteymoda/elevations-sections/sec1.webp",
+      "/images/project/project-galeria-arteymoda/elevations-sections/sec3.webp",
+      "/images/project/project-galeria-arteymoda/elevations-sections/sec4.webp",
+    ],
     floorPlans: [
-      "/images/project/project-galeria-arteymoda/floor-plans/fplan1.webp", 
-      "/images/project/project-galeria-arteymoda/floor-plans/fplan4.webp", 
-      "/images/project/project-galeria-arteymoda/floor-plans/fplan6.webp"],
+      "/images/project/project-galeria-arteymoda/floor-plans/fplan1.webp",
+      "/images/project/project-galeria-arteymoda/floor-plans/fplan4.webp",
+      "/images/project/project-galeria-arteymoda/floor-plans/fplan6.webp",
+    ],
     isometricViews: [
-      "/images/project/project-galeria-arteymoda/isometric-views/iso1.webp", 
-      "/images/project/project-galeria-arteymoda/isometric-views/iso4.webp", 
-      "/images/project/project-galeria-arteymoda/isometric-views/iso5.webp"],
+      "/images/project/project-galeria-arteymoda/isometric-views/iso1.webp",
+      "/images/project/project-galeria-arteymoda/isometric-views/iso4.webp",
+      "/images/project/project-galeria-arteymoda/isometric-views/iso5.webp",
+    ],
     visualizations: [
-      "/images/project/project-galeria-arteymoda/architectural-visualizations/scene1.webp", 
-      "/images/project/project-galeria-arteymoda/architectural-visualizations/scene6.webp", 
-      "/images/project/project-galeria-arteymoda/architectural-visualizations/scene10.webp"],
+      "/images/project/project-galeria-arteymoda/architectural-visualizations/scene1.webp",
+      "/images/project/project-galeria-arteymoda/architectural-visualizations/scene6.webp",
+      "/images/project/project-galeria-arteymoda/architectural-visualizations/scene10.webp",
+    ],
     galleryComponent: ProjectMasonryGalleryComponent4,
   },
   {
@@ -140,9 +179,10 @@ const Projects = [
     title: "JC House",
     subtitle: "Residential Design",
     slug: "project-jc-house",
-    pimg: "/images/project/project-galeria-arteymoda/pimg.jpeg",
-    phero: "/images/project/hero-project-2/img-4.jpg",
-    sing: "/images/project-single/57.jpg",
+    pimg: "/images/project/project-casa-taller/architectural-visualizations/sceneSlug1.webp",
+    phero:
+      "/images/project/project-casa-taller/architectural-visualizations/sceneSlug1.webp",
+    sing: "/images/project/project-casa-taller/sing.webp",
     num: "04",
     date: "September 2024",
     location: "San José, Costa Rica",
@@ -153,6 +193,22 @@ const Projects = [
     floorPlansDesc: "",
     isometricViewsDesc: "",
     visualizationsDesc: "",
+    elevationsSections: [
+      "/images/project/project-casa-taller/elevations-sections/sec1.webp",
+      "/images/project/project-casa-taller/elevations-sections/sec2.webp",
+      "/images/project/project-casa-taller/elevations-sections/sec3.webp",
+    ],
+    floorPlans: [
+      "/images/project/project-casa-taller/floor-plans/fplan1.webp",
+      "/images/project/project-casa-taller/floor-plans/fplan2.webp",
+      "/images/project/project-casa-taller/floor-plans/fplan3.webp",
+    ],
+    visualizations: [
+      "/images/project/project-casa-taller/architectural-visualizations/sceneSlug2.webp",
+      "/images/project/project-casa-taller/architectural-visualizations/sceneSlug3.webp",
+      "/images/project/project-casa-taller/architectural-visualizations/sceneSlug4.webp",
+    ],
+    galleryComponent: ProjectMasonryGalleryComponent4,
   },
 ];
 export default Projects;

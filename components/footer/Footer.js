@@ -1,8 +1,5 @@
 import React from "react";
 import Link from "next/link";
-
-// images
-// import Logo from "../../public/images/logo.png"; no funciona el import
 import Image from "next/image";
 
 const ClickHandler = () => {
@@ -107,7 +104,7 @@ const Footer = (props) => {
                   </Link>
                 </li>
                 <li>
-                  <Link onClick={ClickHandler} href="/team-single/Robert-Fox">
+                  <Link onClick={ClickHandler} href="/team-single/Brenes-Munoz">
                     <span className="rolling-text">About Me</span>
                   </Link>
                 </li>

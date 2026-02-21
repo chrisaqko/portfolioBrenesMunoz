@@ -3,15 +3,9 @@ import Link from "next/link";
 import { Navigation, Pagination, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import Slide1 from "/public/images/slider/hero-text.jpeg";
-import Slide2 from "/public/images/slider/hero-text-2.jpeg";
 
 /* heroTeam */
-import heroTeam from "/public/images/team/hero-team/1.jpg";
-import heroTeam2 from "/public/images/team/hero-team/2.jpg";
-import heroTeam3 from "/public/images/team/hero-team/3.jpg";
-import heroTeam4 from "/public/images/team/hero-team/4.jpg";
-import arrow from "/public/images/down-arrow.svg";
+
 import Image from "next/image";
 
 const Hero = () => {
@@ -23,7 +17,7 @@ const Hero = () => {
         spaceBetween={0}
         slidesPerView={1}
         loop={true}
-        speed={1800}
+        speed={2000}
         parallax={true}
         navigation={false}
         pagination={{
@@ -48,10 +42,15 @@ const Hero = () => {
                   <h2>
                     Designing for Everyone:
                     <span>
-                      <Image src={Slide1} alt="" />
+                      <Image
+                        src={"/images/slider/hero-text.jpeg"}
+                        width={500}
+                        height={250}
+                        alt=""
+                      />
                     </span>
                   </h2>
-                  <h2>Accessibility First</h2>
+                  <h2>Accessibility First.</h2>
                 </div>
               </div>
             </div>
@@ -66,11 +65,16 @@ const Hero = () => {
               <div className="slide-content">
                 <div className="slide-sub-title">
                   <h2>
-                    Innovation in Every Line, Strength{" "}
+                    Human-Centric Design:{" "}
                     <span>
-                      <Image src={Slide2} alt="" />
+                      <Image
+                        src={"/images/slider/hero-text-2.jpeg"}
+                        width={500}
+                        height={250}
+                        alt=""
+                      />
                     </span>{" "}
-                    in Every Build
+                    Connection First.
                   </h2>
                 </div>
               </div>
@@ -80,17 +84,47 @@ const Hero = () => {
         <SwiperSlide>
           <div
             className="slide-inner slide-bg-image"
-            style={{ backgroundImage: `url(${"/images/slider/slide-2.jpeg"})` }}
+            style={{ backgroundImage: `url(${"/images/slider/slide-3.webp"})` }}
           >
             <div className="container">
               <div className="slide-content">
                 <div className="slide-sub-title">
                   <h2>
-                    Innovation in Every Line, Strength{" "}
+                    Vision in Every Detail,{" "}
                     <span>
-                      <Image src={Slide2} alt="" />
+                      <Image
+                        src={"/images/slider/hero-text-3.webp"}
+                        width={500}
+                        height={250}
+                        alt=""
+                      />
                     </span>{" "}
-                    in Every Build
+                    Integrity in Every Line.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="slide-inner slide-bg-image"
+            style={{ backgroundImage: `url(${"/images/slider/slide-4.webp"})` }}
+          > 1561 571
+            <div className="container">
+              <div className="slide-content">
+                <div className="slide-sub-title">
+                  <h2>
+                    Serenity in Every Sip,{" "}
+                    <span>
+                      <Image
+                        src={"/images/slider/hero-text-4.webp"}
+                        width={500}
+                        height={250}
+                        alt=""
+                      />
+                    </span>{" "}
+                    Beauty in Every Shade.
                   </h2>
                 </div>
               </div>
@@ -102,7 +136,7 @@ const Hero = () => {
       <AnchorLink href="#about" className="scroll-btn">
         <span>Scroll For More</span>
         <div className="scroll-befor">
-          <Image src={arrow} alt="" />
+          <Image src={"/images/down-arrow.svg"} width={18} height={10} alt="" />
         </div>
       </AnchorLink>
     </section>

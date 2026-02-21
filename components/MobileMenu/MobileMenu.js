@@ -15,6 +15,11 @@ const menus = [
         title: 'Projects',
         link: '/projects',
     },
+    {
+        id: 3,
+        title: 'About Me',
+        link: '/team-single/Brenes-Munoz',
+    },
 
   
 

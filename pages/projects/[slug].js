@@ -113,321 +113,263 @@ const ProjectData = (props) => {
           </div>
         </div>
       </section>
-
-      <section className="solve-section">
-        <div className="container-fluid">
-          <div className="project-title">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-12">
-                <h2
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Elevations & Sections
-                </h2>
-              </div>
-              <div className="col-lg-6 col-12">
-                <p
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="image-wrap">
-            <div className="row">
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.elevationsSections[0]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
+            {ProjectData?.visualizations?.length > 0 && (
+        <section className="solve-section">
+          <div className="container-fluid">
+            <div className="project-title">
+              <div className="row align-items-center">
+                <div className="col-lg-6 col-12">
+                  <h2
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Architectural Visualizations
+                  </h2>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.elevationsSections[1]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.elevationsSections[2]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
+                <div className="col-lg-6 col-12">
+                  <p
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled.
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="solve-section">
-        <div className="container-fluid">
-          <div className="project-title">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-12">
-                <h2
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Floor Plans
-                </h2>
-              </div>
-              <div className="col-lg-6 col-12">
-                <p
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled.
-                </p>
+            <div className="image-wrap">
+              <div className="row">
+                {ProjectData.visualizations.map((img, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 col-md-6 col-12 scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    <div className="image">
+                      <Image src={img} width={300} height={300} alt="" />
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
-          <div className="image-wrap">
-            <div className="row">
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.floorPlans[0]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
+        </section>
+      )}
+      {ProjectData?.built?.length > 0 && (
+        <section className="solve-section">
+          <div className="container-fluid">
+            <div className="project-title">
+              <div className="row align-items-center">
+                <div className="col-lg-6 col-12">
+                  <h2
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Built Project
+                  </h2>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.floorPlans[1]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.floorPlans[2]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
+                <div className="col-lg-6 col-12">
+                  <p
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled.
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="solve-section">
-        <div className="container-fluid">
-          <div className="project-title">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-12">
-                <h2
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Isometric Views
-                </h2>
-              </div>
-              <div className="col-lg-6 col-12">
-                <p
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled.
-                </p>
+            <div className="image-wrap">
+              <div className="row">
+                {ProjectData.built.map((img, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 col-md-6 col-12 scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    <div className="image">
+                      <Image src={img} width={300} height={300} alt="" />
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
-          <div className="image-wrap">
-            <div className="row">
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.isometricViews[0]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
+        </section>
+      )}
+      {ProjectData?.moodBoard?.length > 0 && (
+        <section className="solve-section">
+          <div className="container-fluid">
+            <div className="project-title">
+              <div className="row align-items-center">
+                <div className="col-lg-6 col-12">
+                  <h2
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Mood Board
+                  </h2>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.isometricViews[1]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.isometricViews[2]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
+                <div className="col-lg-6 col-12">
+                  <p
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled.
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="solve-section">
-        <div className="container-fluid">
-          <div className="project-title">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-12">
-                <h2
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Architectural Visualizations
-                </h2>
-              </div>
-              <div className="col-lg-6 col-12">
-                <p
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled.
-                </p>
+            <div className="image-wrap">
+              <div className="row">
+                {ProjectData.moodBoard.map((img, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 col-md-6 col-12 scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    <div className="image">
+                      <Image src={img} width={300} height={300} alt="" />
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
-          <div className="image-wrap">
-            <div className="row">
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.visualizations[0]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
+        </section>
+      )}
+      {ProjectData?.floorPlans?.length > 0 && (
+        <section className="solve-section">
+          <div className="container-fluid">
+            <div className="project-title">
+              <div className="row align-items-center">
+                <div className="col-lg-6 col-12">
+                  <h2
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Floor Plans
+                  </h2>
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.visualizations[1]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 col-12 scroll-text-animation"
-                data-animation="fade_from_bottom"
-              >
-                <div className="image">
-                  <Image
-                    src={ProjectData?.visualizations[2]}
-                    width={300}
-                    height={300}
-                    alt=""
-                  />
+                <div className="col-lg-6 col-12">
+                  <p
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled.
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="summery-section">
-        <div className="container-fluid">
-          <div className="project-title">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-12">
-                <h2
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Project Gallery
-                </h2>
-              </div>
-              <div className="col-lg-6 col-12">
-                <p
-                  className="scroll-text-animation"
-                  data-animation="fade_from_bottom"
-                >
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled.
-                </p>
+            <div className="image-wrap">
+              <div className="row">
+                {ProjectData.floorPlans.map((img, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 col-md-6 col-12 scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    <div className="image">
+                      <Image src={img} width={300} height={300} alt="" />
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
-          <div
-            className="wraper"
-            style={{ backgroundImage: `url(${"/images/wpo-video-bg-5.jpg"})` }}
-          >
-            <div>{GalleryComponent && <GalleryComponent />}</div>
+        </section>
+      )}
+      {ProjectData?.isometricViews?.length > 0 && (
+        <section className="solve-section">
+          <div className="container-fluid">
+            <div className="project-title">
+              <div className="row align-items-center">
+                <div className="col-lg-6 col-12">
+                  <h2
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Isometric Views
+                  </h2>
+                </div>
+                <div className="col-lg-6 col-12">
+                  <p
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="image-wrap">
+              <div className="row">
+                {ProjectData.isometricViews.map((img, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 col-md-6 col-12 scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    <div className="image">
+                      <Image src={img} width={300} height={300} alt="" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
+      {GalleryComponent && (
+        <section className="summery-section">
+          <div className="container-fluid">
+            <div className="project-title">
+              <div className="row align-items-center">
+                <div className="col-lg-6 col-12">
+                  <h2
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Project Gallery
+                  </h2>
+                </div>
+                <div className="col-lg-6 col-12">
+                  <p
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="wraper"
+              style={{
+                backgroundImage: `url(${"/images/wpo-video-bg-5.jpg"})`,
+              }}
+            >
+              <div>{GalleryComponent && <GalleryComponent />}</div>
+            </div>
+          </div>
+        </section>
+      )}
       <Footer />
       <Scrollbar />
     </Fragment>
