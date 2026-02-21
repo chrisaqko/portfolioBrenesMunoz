@@ -289,6 +289,50 @@ const ProjectData = (props) => {
           </div>
         </section>
       )}
+            {ProjectData?.elevationsSections?.length > 0 && (
+        <section className="solve-section">
+          <div className="container-fluid">
+            <div className="project-title">
+              <div className="row align-items-center">
+                <div className="col-lg-6 col-12">
+                  <h2
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Floor Plans
+                  </h2>
+                </div>
+                <div className="col-lg-6 col-12">
+                  <p
+                    className="scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="image-wrap">
+              <div className="row">
+                {ProjectData.elevationsSections.map((img, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 col-md-6 col-12 scroll-text-animation"
+                    data-animation="fade_from_bottom"
+                  >
+                    <div className="image">
+                      <Image src={img} width={300} height={300} alt="" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
       {ProjectData?.isometricViews?.length > 0 && (
         <section className="solve-section">
           <div className="container-fluid">
