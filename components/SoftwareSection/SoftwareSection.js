@@ -10,39 +10,39 @@ import Image from "next/image";
 const softwares = [
     {
         id: "01",
-        pimg: '/images/software/sketchup.webp',
+        pimg: '/images/software/sketchup.png',
     },
     {
         id: "02",
-        pimg: '/images/software/autodeskrevit.webp',
+        pimg: '/images/software/autodeskrevit.png',
     },
     {
         id: "03",
-        pimg: '/images/software/autocad.webp',
+        pimg: '/images/software/autocad.png',
     },
     {
         id: "04",
-        pimg: '/images/software/illustrator.webp',
+        pimg: '/images/software/illustrator.png',
     },
     {
         id: "05",
-        pimg: '/images/software/photoshop.webp',
+        pimg: '/images/software/photoshop.png',
     },
     {
         id: "06",
-        pimg: '/images/software/afterfx.webp',
+        pimg: '/images/software/afterfx.png',
     },
     {
         id: "07",
-        pimg: '/images/software/d5render.webp',
+        pimg: '/images/software/d5render.png',
     },
     {
         id: "08",
-        pimg: '/images/software/lumion.webp',
+        pimg: '/images/software/lumion.png',
     },
     {
         id: "09",
-        pimg: '/images/software/v-ray.webp',
+        pimg: '/images/software/v-ray.png',
     },
 
 ]
@@ -53,6 +53,7 @@ const SoftwareSection = (props) => {
     const settings = {
         infinite: true,
         autoplay: true,
+        autoplaySpeed: 1300,
         arrows: false,
         dots: false,
         slidesToShow: 5,
