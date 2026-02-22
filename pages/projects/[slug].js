@@ -62,25 +62,8 @@ const ProjectData = (props) => {
                 >
                   {ProjectData?.title}
                 </h2>
-                <p>
-                  <span>M</span>odern Buildings Ipsum is simply dummy text of
-                  the printing and typesetting industry. Lorem Ipsum has beening
-                  the industry's standard dummy text ever since the 1500s, when
-                  an unknown printer took a galley of type and scrambled it to
-                  make a good type specimen book. It has survived not only five
-                  centuries, but also the leap into electronic typesetting,
-                  remaining essentially unchanged. It was a popularised in the
-                  1960s with the release of Letraset sheets containing Lorem
-                  Ipsum passages.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Sit aliquam dignissim
-                  situt id amet cyrium. Nulla thurg varius purus bibendum
-                  pellentesque eu sit nascetur vitae. Nibh tortor etrutnibh
-                  tincidunt tempor proin. Est placerat felis pellentesque
-                  temupus condimentum consectetur. Faucibus nunc pellentesque ac
-                  mus posuere aliquam mor augue orci. Egestas donec sit
-                  pellentesque lacus.
+                <p style={{ whiteSpace: "pre-line" }}>
+                  {ProjectData?.description}
                 </p>
               </div>
             </div>
@@ -131,10 +114,7 @@ const ProjectData = (props) => {
                     className="scroll-text-animation"
                     data-animation="fade_from_bottom"
                   >
-                    Simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled.
+                    {ProjectData?.visualizationsDesc}
                   </p>
                 </div>
               </div>
@@ -175,10 +155,7 @@ const ProjectData = (props) => {
                     className="scroll-text-animation"
                     data-animation="fade_from_bottom"
                   >
-                    Simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled.
+                    {ProjectData?.builtDesc}
                   </p>
                 </div>
               </div>
@@ -219,10 +196,7 @@ const ProjectData = (props) => {
                     className="scroll-text-animation"
                     data-animation="fade_from_bottom"
                   >
-                    Simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled.
+                    {ProjectData?.moodBoardDesc}
                   </p>
                 </div>
               </div>
@@ -263,10 +237,7 @@ const ProjectData = (props) => {
                     className="scroll-text-animation"
                     data-animation="fade_from_bottom"
                   >
-                    Simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled.
+                    {ProjectData?.floorPlansDesc}
                   </p>
                 </div>
               </div>
@@ -307,10 +278,7 @@ const ProjectData = (props) => {
                     className="scroll-text-animation"
                     data-animation="fade_from_bottom"
                   >
-                    Simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled.
+                    {ProjectData?.elevationsSectionsDesc}
                   </p>
                 </div>
               </div>
@@ -351,10 +319,7 @@ const ProjectData = (props) => {
                     className="scroll-text-animation"
                     data-animation="fade_from_bottom"
                   >
-                    Simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled.
+                    {ProjectData?.isometricViewsDesc}
                   </p>
                 </div>
               </div>
@@ -395,10 +360,7 @@ const ProjectData = (props) => {
                     className="scroll-text-animation"
                     data-animation="fade_from_bottom"
                   >
-                    Simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled.
+                    {ProjectData?.projectGalleryDesc}
                   </p>
                 </div>
               </div>
