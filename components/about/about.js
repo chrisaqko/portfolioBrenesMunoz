@@ -36,7 +36,7 @@ const About = (props) => {
                     <Image src={'/images/about/FONDOABTME.webp'} width={620} height={700} alt="" />
                 </div>
                 <div className="image-2 poort-in-right">
-                    <Image src={'/images/about/FOTO620x700.webp'} width={620} height={700} alt="" />
+                    <Image src={'/images/about/FOTO620X700.webp'} width={620} height={700} alt="" />
                 </div>
             </div>
             
