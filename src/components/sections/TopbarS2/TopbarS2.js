@@ -1,0 +1,46 @@
+import React from 'react';
+import Link from 'next/link';
+
+
+
+const TopbarS2 = () => {
+    const ClickHandler = () => {
+        window.scrollTo(10, 0)
+    }
+    return (
+        <div className="topbar topbar-s2">
+            <div className="container-fluid">
+                <div className="row align-items-center">
+                    <div className="col-lg-8 col-md-8 col-12">
+                        <ul className="contact-info">
+                            <li>
+                                <a href="tel:+887869587496">
+                                    Call Me:
+                                    <span> +(506) 6024 - 9502</span>
+                                </a>
+                            </li>
+                            <li>
+                                <span>
+                                    Email Me:
+                                </span>
+                                <span> jbrenarq06@outlook.com</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div className="col-lg-4 col-md-4 col-12">
+                        <div className="contact-into">
+                            <ul className="social-media">
+
+                                <li><Link onClick={ClickHandler} href="https://www.linkedin.com/in/jonnathan-brenes-mu%C3%B1oz-12729824a/"><i className="ti-linkedin"></i></Link></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default TopbarS2;
