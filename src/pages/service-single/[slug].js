@@ -9,22 +9,20 @@ import Footer from "../../components/layout/footer/Footer";
 import Scrollbar from "../../components/layout/scrollbar/scrollbar";
 import VideoModal from "../../components/ui/ModalVideo/VideoModal";
 import Logo from "/public/images/IMAGOTIPO.svg";
-import dream1 from "/public/images/service-single/dream/1.jpg";
-import dream2 from "/public/images/service-single/dream/2.jpg";
-import dream3 from "/public/images/service-single/dream/3.jpg";
-import dream4 from "/public/images/service-single/dream/4.jpg";
+
 import Image from "next/image";
 
 const ScrollTextAnimation = dynamic(
-  () => import("../../components/sections/ScrollTextAnimation/ScrollTextAnimation"),
-  { ssr: false }
+  () =>
+    import("../../components/sections/ScrollTextAnimation/ScrollTextAnimation"),
+  { ssr: false },
 );
 
 const ServiceSinglePage = () => {
   const router = useRouter();
 
   const serviceSingle = Services.find(
-    (item) => item.slug === router.query.slug
+    (item) => item.slug === router.query.slug,
   );
 
   return (
