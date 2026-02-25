@@ -1,47 +1,88 @@
 import React from "react";
 import VideoModal from "../ModalVideo/VideoModal";
-import Link from 'next/link';
-import CountUp from 'react-countup';
+import Link from "next/link";
+import CountUp from "react-countup";
 import RollingText from "../RollingText/RollingText";
 import Image from "next/image";
 
 const About = (props) => {
+  const ClickHandler = () => {
+    window.scrollTo(10, 0);
+  };
 
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
+  return (
+    <section id="about" className={"" + props.hclass}>
+      <div className="about-wrap">
+        <div className="content">
+          <h2
+            className="scroll-text-animation"
+            data-animation="fade_from_right"
+          >
+            About me
+          </h2>
+          <p className="fade_bottom">
+            I am an architect focused on designing comfortable, open, and
+            accessible spaces that respond to both people and function. My work
+            emphasizes natural light, ventilation, and clarity, creating
+            environments where users feel safe, welcome, and at ease. I approach
+            each project with a detailed and context-aware mindset, adapting
+            materials and design strategies to the social and climatic
+            conditions of each place. I am especially interested in social
+            inclusion and community-oriented spaces, aiming to create
+            architecture that is visually coherent, meaningful, and deeply
+            connected to the people who inhabit it.
+          </p>
+          <div className="about-btn ">
+            <Link
+              onClick={ClickHandler}
+              href="/team-single/Brenes-Munoz"
+              className="theme-btn"
+            >
+              <RollingText text={"Professional Info"} />
+            </Link>
+            <Link
+              onClick={ClickHandler}
+              href="/PDF/portfolio_2026.pdf"
+              className="theme-btn"
+            >
+              <RollingText text={"PDF Portfolio"} />
+            </Link>
+          </div>
+          <div className="about-funfact fade_bottom">
+            <h3>
+              <span>
+                <CountUp end={2} enableScrollSpy />
+              </span>
+              <span className="icon">+</span>
+            </h3>
 
-
-    return (
-        <section id="about" className={"" + props.hclass}>
-            <div className="about-wrap">
-                <div className="content">
-                    <h2 className="scroll-text-animation" data-animation="fade_from_right">About me</h2>
-                    <p className="fade_bottom">I am an architect focused on designing comfortable, open, and accessible spaces that respond to both people and function. My work emphasizes natural light, ventilation, and clarity, creating environments where users feel safe, welcome, and at ease. I approach each project with a detailed and context-aware mindset, adapting materials and design strategies to the social and climatic conditions of each place. I am especially interested in social inclusion and community-oriented spaces, aiming to create architecture that is visually coherent, meaningful, and deeply connected to the people who inhabit it.</p>
-                    <div className="about-btn ">
-                        <Link onClick={ClickHandler} href="/team-single/Brenes-Munoz" className="theme-btn">
-                            <RollingText text={'Professional Info'}/>
-                        </Link>
-                    </div>
-                    <div className="about-funfact fade_bottom">
-                        <h3><span><CountUp end={2} enableScrollSpy /></span><span className="icon">+</span></h3>
-
-                        <h4>Years Of <br />
-                            Experience</h4>
-                    </div>
-                </div>
-            </div>
-            <div className="image">
-                <div className="image-1  poort-in-right">
-                    <Image src={'/images/about/FONDOABTME.webp'} width={620} height={700} alt="" />
-                </div>
-                <div className="image-2 poort-in-right">
-                    <Image src={'/images/about/FOTO620X700.webp'} width={620} height={700} alt="" />
-                </div>
-            </div>
-            
-        </section>
-    )
-}
+            <h4>
+              Years Of <br />
+              Experience
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div className="image">
+        <div className="image-1  poort-in-right">
+          <Image
+            src={"/images/about/FONDOABTME.webp"}
+            width={620}
+            height={700}
+            alt=""
+          />
+        </div>
+        <div className="image-2 poort-in-right">
+          <Image
+            src={"/images/about/FOTO620X700.webp"}
+            width={620}
+            height={700}
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default About;

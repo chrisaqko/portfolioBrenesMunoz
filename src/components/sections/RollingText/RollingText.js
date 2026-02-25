@@ -1,44 +1,45 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 
 const RollingText = ({ text }) => {
-    useEffect(() => {
-        const elements = document.querySelectorAll(".rolling-text");
+  const textRef = useRef(null);
 
-        elements.forEach((element) => {
-            const innerText = element.innerText;
-            element.innerHTML = "";
+  useEffect(() => {
+    const element = textRef.current;
+    if (!element || element.dataset.processed === "true") return;
 
-            const textContainer = document.createElement("div");
-            textContainer.classList.add("block");
+    const innerText = text;
+    element.innerHTML = "";
 
-            for (let letter of innerText) {
-                const span = document.createElement("span");
-                span.innerText = letter.trim() === "" ? "\xa0" : letter;
-                span.classList.add("letter");
-                textContainer.appendChild(span);
-            }
+    const textContainer = document.createElement("div");
+    textContainer.classList.add("block");
 
-            element.appendChild(textContainer);
-            element.appendChild(textContainer.cloneNode(true));
-        });
+    for (let letter of innerText) {
+      const span = document.createElement("span");
+      span.innerText = letter.trim() === "" ? "\xa0" : letter;
+      span.classList.add("letter");
+      textContainer.appendChild(span);
+    }
 
-        elements.forEach((element) => {
-            element.addEventListener("mouseover", () => {
-                element.classList.remove("play");
-            });
-        });
+    element.appendChild(textContainer);
+    element.appendChild(textContainer.cloneNode(true));
+    element.dataset.processed = "true";
 
-     
-        return () => {
-            elements.forEach((element) => {
-                element.removeEventListener("mouseover", () => {
-                    element.classList.remove("play");
-                });
-            });
-        };
-    }, []);
+    const handleMouseOver = () => {
+      element.classList.remove("play");
+    };
 
-    return <span className="rolling-text">{text}</span>;
+    element.addEventListener("mouseover", handleMouseOver);
+
+    return () => {
+      element.removeEventListener("mouseover", handleMouseOver);
+    };
+  }, [text]);
+
+  return (
+    <span ref={textRef} className="rolling-text">
+      {text}
+    </span>
+  );
 };
 
 export default RollingText;

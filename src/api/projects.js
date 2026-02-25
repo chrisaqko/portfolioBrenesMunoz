@@ -251,6 +251,7 @@ const Projects = [
       "/images/project/project-casa-taller/architectural-visualizations/sceneSlug4.webp",
     ],
     galleryComponent: ProjectMasonryGalleryComponent5,
+    drawingSet: "/PDF/projects/drawing-set-casa-taller.pdf",
   },
 ];
 export default Projects;

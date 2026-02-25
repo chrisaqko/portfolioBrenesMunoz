@@ -9,12 +9,18 @@ import Footer from "../../components/layout/footer/Footer";
 import Scrollbar from "../../components/layout/scrollbar/scrollbar";
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
+import RollingText from "../../components/sections/RollingText/RollingText";
 
 const ScrollTextAnimation = dynamic(
   () =>
     import("../../components/sections/ScrollTextAnimation/ScrollTextAnimation"),
   { ssr: false },
 );
+
+const ClickHandler = () => {
+  window.scrollTo(10, 0);
+};
 
 const TeamSinglePage = () => {
   const router = useRouter();
@@ -81,6 +87,34 @@ const TeamSinglePage = () => {
                     to grow professionally within collaborative design
                     environments.
                   </p>
+                </div>
+                <div className="wpo-about-section">
+                  <div className="content">
+                    <div
+                      className="about-btn "
+                      style={{
+                        margin: "0",
+                        marginTop: "40px",
+                        display: "flex",
+                        gap: "20px",
+                      }}
+                    >
+                      <Link
+                        onClick={ClickHandler}
+                        href="/PDF/cv_2026.pdf"
+                        className="theme-btn"
+                      >
+                        <RollingText text={"PDF CV"} />
+                      </Link>
+                      <Link
+                        onClick={ClickHandler}
+                        href="/PDF/portfolio_2026.pdf"
+                        className="theme-btn"
+                      >
+                        <RollingText text={"PDF Portfolio"} />
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

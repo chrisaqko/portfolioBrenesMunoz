@@ -8,6 +8,7 @@ import Footer from "../../components/layout/footer/Footer";
 import Scrollbar from "../../components/layout/scrollbar/scrollbar";
 import Image from "next/image";
 import Head from "next/head";
+import RollingText from "../../components/sections/RollingText/RollingText";
 
 const ProjectData = (props) => {
   const router = useRouter();
@@ -90,6 +91,29 @@ const ProjectData = (props) => {
                   <li>
                     <span>Location :</span> <span>{ProjectData?.location}</span>
                   </li>
+                  {ProjectData?.drawingSet && (
+                    <div className="wpo-about-section">
+                      <div className="content">
+                        <div
+                          className="about-btn "
+                          style={{
+                            margin: "0",
+                            marginTop: "40px",
+                            display: "flex",
+                            gap: "20px",
+                          }}
+                        >
+                          <Link
+                            onClick={ClickHandler}
+                            href={ProjectData?.drawingSet}
+                            className="theme-btn"
+                          >
+                            <RollingText text={"Drawing Set"} />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </ul>
               </div>
             </div>
