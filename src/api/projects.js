@@ -5,6 +5,7 @@ import ProjectMasonryGalleryComponent1 from "../components/sections/masonryImage
 import ProjectMasonryGalleryComponent2 from "../components/sections/masonryImageList/masonryImageListSaenzHerrera/masonryImageListSaenzHerrera.tsx";
 import ProjectMasonryGalleryComponent3 from "../components/sections/masonryImageList/masonryImageListHabitadSinergia/masonryImageListHabitadSinergia.tsx";
 import ProjectMasonryGalleryComponent4 from "../components/sections/masonryImageList/masonryImageListArteYModa/masonryImageListArteYModa.tsx";
+import ProjectMasonryGalleryComponent5 from "../components/sections/masonryImageList/masonryImageListJYC/masonryImageListJYC.tsx";
 
 const Projects = [
   {
@@ -249,7 +250,7 @@ const Projects = [
       "/images/project/project-casa-taller/architectural-visualizations/sceneSlug3.webp",
       "/images/project/project-casa-taller/architectural-visualizations/sceneSlug4.webp",
     ],
-    galleryComponent: ProjectMasonryGalleryComponent4,
+    galleryComponent: ProjectMasonryGalleryComponent5,
   },
 ];
 export default Projects;
