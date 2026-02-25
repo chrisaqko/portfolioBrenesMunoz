@@ -96,7 +96,8 @@ const TeamSinglePage = () => {
                         margin: "0",
                         marginTop: "40px",
                         display: "flex",
-                        gap: "20px",
+                        justifyContent: "center",
+                        gap: "50px",
                       }}
                     >
                       <Link
