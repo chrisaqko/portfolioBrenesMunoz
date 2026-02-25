@@ -100,6 +100,7 @@ const ProjectData = (props) => {
                             margin: "0",
                             marginTop: "40px",
                             display: "flex",
+                            justifyContent: "center",
                             gap: "20px",
                           }}
                         >
