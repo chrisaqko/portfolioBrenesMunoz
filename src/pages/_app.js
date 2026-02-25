@@ -25,6 +25,13 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <title>Architect Jonnathan Brenes</title>
+        <link rel="icon" href="/images/ISOTIPO.svg" />
+        <link rel="shortcut icon" href="/images/ISOTIPO.svg" />
+        <link
+          rel="apple-touch-icon"
+          sizes="250x250"
+          href="/images/ISOTIPO.svg"
+        />
       </Head>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
