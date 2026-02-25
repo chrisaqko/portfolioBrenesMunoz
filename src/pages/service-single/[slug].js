@@ -114,7 +114,7 @@ const ServiceSinglePage = () => {
                   data-animation="fade_from_bottom"
                 >
                   <div className="image">
-                    <Image src={dream1} alt="" />
+                    <Image src={""} alt="" />
                   </div>
                 </div>
                 <div
@@ -122,7 +122,7 @@ const ServiceSinglePage = () => {
                   data-animation="fade_from_bottom"
                 >
                   <div className="image">
-                    <Image src={dream2} alt="" />
+                    <Image src={""} alt="" />
                   </div>
                 </div>
               </div>
@@ -162,7 +162,7 @@ const ServiceSinglePage = () => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={dream3} alt="" />
+                  <Image src={""} alt="" />
                 </div>
               </div>
               <div
@@ -170,7 +170,7 @@ const ServiceSinglePage = () => {
                 data-animation="fade_from_bottom"
               >
                 <div className="image">
-                  <Image src={dream4} alt="" />
+                  <Image src={""} alt="" />
                 </div>
               </div>
             </div>
