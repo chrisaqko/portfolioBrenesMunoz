@@ -10,10 +10,10 @@ import Scrollbar from "../../components/layout/scrollbar/scrollbar";
 import Image from "next/image";
 import Head from "next/head";
 
-
 const ScrollTextAnimation = dynamic(
-  () => import("../../components/sections/ScrollTextAnimation/ScrollTextAnimation"),
-  { ssr: false }
+  () =>
+    import("../../components/sections/ScrollTextAnimation/ScrollTextAnimation"),
+  { ssr: false },
 );
 
 const TeamSinglePage = () => {
@@ -51,7 +51,12 @@ const TeamSinglePage = () => {
             <div className="col-lg-7 col-12">
               <div className="left-sidbar">
                 <div className="image">
-                  <Image src={teamSingle?.Sime} width={885} height={1050} alt="" />
+                  <Image
+                    src={teamSingle?.Sime}
+                    width={885}
+                    height={1050}
+                    alt=""
+                  />
                 </div>
                 <div className="info-description">
                   <h2 className="fade_bottom">Professional Info.</h2>
@@ -110,11 +115,21 @@ const TeamSinglePage = () => {
                   <h3>Education</h3>
                   <ul>
                     <li>
-                      <Image src={"/images/team-single/arrow.svg"} width={20} height={20} alt="" />
+                      <Image
+                        src={"/images/team-single/arrow.svg"}
+                        width={20}
+                        height={20}
+                        alt=""
+                      />
                       <span>2025 BArch. Universidad Latina de Costa Rica</span>
                     </li>
                     <li>
-                      <Image src={"/images/team-single/arrow.svg"} width={20} height={20} alt="" />
+                      <Image
+                        src={"/images/team-single/arrow.svg"}
+                        width={20}
+                        height={20}
+                        alt=""
+                      />
                       <span>
                         2018 High School Diploma: Colegio Seráfico San Francisco
                       </span>
@@ -205,7 +220,7 @@ const TeamSinglePage = () => {
                             className="progress-value"
                             style={{ width: "80%" }}
                           >
-                            <span>95%</span>
+                            <span>80%</span>
                           </div>
                         </div>
                       </div>
